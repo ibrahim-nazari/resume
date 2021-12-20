@@ -1,3 +1,4 @@
+import { Technology } from "../constant/Technology";
 import Language from "./Language";
 const Experience = () => {
   return (
@@ -8,14 +9,14 @@ const Experience = () => {
       <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 ">
         <div className="flex flex-col">
           <h4 className="text-gray-800 font-bold my-5 text-5xl ">Front-End</h4>
-          {["a", "b", "c", "d"].map((item, i) => (
-            <Language key={i} />
+          {Technology.frontend.map((item, i) => (
+            <Language item={item} key={i} />
           ))}
         </div>
         <div className="flex flex-col">
           <h4 className="text-gray-800 font-bold my-5 text-5xl ">Back-End</h4>
-          {["a", "b", "c", "d"].map((item, i) => (
-            <Language key={i} />
+          {Technology.backend.map((item, i) => (
+            <Language item={item} key={i} />
           ))}
         </div>
       </div>

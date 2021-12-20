@@ -1,5 +1,14 @@
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 export const SocialMedia = [
+  {
+    name: "Github",
+    link: "https://github.com/ibrahim-nazari",
+    icon: "/images/socialmedia/github.svg",
+  },
+  {
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/ibrahim-nazary/",
+    icon: "/images/socialmedia/linkedin.svg",
+  },
   {
     name: "Facebook",
     link: "https://www.facebook.com/ibrahim.nazarii",
@@ -12,7 +21,7 @@ export const SocialMedia = [
   },
   {
     name: "Telegram",
-    link: "https://msng.link/o/?@nazaricode=tg",
+    link: "https://t.me/nazaricode",
     icon: "/images/socialmedia/telegram.svg",
   },
   {
@@ -22,7 +31,7 @@ export const SocialMedia = [
   },
   {
     name: "Twitter",
-    link: "https://facebook.com/ibrahim-nazari",
+    link: "https://twitter.com/nazaricode",
     icon: "/images/socialmedia/twitter.svg",
   },
 ];

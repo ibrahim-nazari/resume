@@ -19,9 +19,9 @@ const Introduction = () => {
 
         <Typed
           strings={[
-            "Web developer",
-            "Learning everyday",
-            "Coding everyday",
+            "Web Developer",
+            "Learning Everyday",
+            "Coding Everyday",
             "Challenging",
           ]}
           className="  text-center"

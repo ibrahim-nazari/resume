@@ -1,9 +1,7 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { SocialMedia } from "../constant/SocialMedai";
 import { Navigation } from "../constant/Navigation";
 
@@ -71,12 +69,16 @@ export default function Header() {
                         height={20}
                         objectFit="contain"
                       />
-                      <span className="text-white">+93745287692</span>
+                      <span className="text-white">
+                        <Link href="tel:+93745287692">
+                          <a>+93745287692</a>
+                        </Link>
+                      </span>
                     </a>
                   </Link>
                 </div>
                 <div className="flex space-x-4">
-                  {SocialMedia.map((social) => (
+                  {SocialMedia.slice(0, 2).map((social) => (
                     <Link key={social.name} href={social.link}>
                       <a className="hover:opacity-80">
                         <Image src={social.icon} width="25" height="25" />
