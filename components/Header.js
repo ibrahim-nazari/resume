@@ -9,7 +9,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Header() {
+export default function Header({ page }) {
   return (
     <Disclosure as="nav" className="bg-gray-800 fixed top-0 left-0 z-50 w-full">
       {({ open }) => (
@@ -34,12 +34,12 @@ export default function Header() {
                       <Link key={item.name} href={item.href}>
                         <a
                           className={classNames(
-                            item.current
+                            page == item.href
                               ? "bg-gray-900 text-white"
                               : "text-gray-300 hover:bg-gray-700 hover:text-white",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
-                          aria-current={item.current ? "page" : undefined}
+                          aria-current={page == item.href ? "page" : undefined}
                         >
                           {item.name}
                         </a>

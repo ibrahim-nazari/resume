@@ -12,10 +12,12 @@ const Footer = () => {
         <div className="max-w-lg">
           <h6 className="font-bold text-2xl mb-4 text-white">Web Developer</h6>
           <div className="text-white italic text-sm ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-            nesciunt tempore impedit debitis, dignissimos velit perferendis
-            dolore ex soluta, sunt similique, possimus atque? Sint labore
-            voluptatum officiis quam porro fugiat!
+            I am Ibrahim Nazari, freelance web developer,student of life and new
+            technology,usually lots of my time dedicate to learn new tech and
+            working on projects. Love to discuss, help and sharing my idea with
+            others, on spare time i go visiting friends, watch tutorial,
+            chatting, prefer to work on new techs and beside i am always
+            learning. feel free to message me - if you think i can help you.
           </div>
         </div>
         <div className="flex flex-col space-y-1">
