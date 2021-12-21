@@ -12,7 +12,7 @@ const Introduction = () => {
         layout="fill"
         objectFit="cover"
       />
-      <div class=" w-full absolute top-1/2 z-30  text-center">
+      <div className=" w-full absolute top-1/2 z-30  text-center">
         <h2 className="text-3xl sm:text-6xl text-center  title-shadow font-bold text-gray-100 ">
           I am a web developer
         </h2>

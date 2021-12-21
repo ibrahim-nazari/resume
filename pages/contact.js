@@ -11,6 +11,7 @@ const Contact = () => {
     message: "",
   });
   const [state, setstate] = useState({ error: false, sent: false });
+  const [sending, setSending] = useState(false);
   const handleChange = (e) => {
     let name = e.target.name;
     let value = e.target.value;
@@ -19,6 +20,7 @@ const Contact = () => {
   const { sent, error } = state;
   const { name, lastName, email, message, phone } = data;
   const submit = (e) => {
+    setSending(true);
     e.preventDefault();
     fetch("/api/send", {
       method: "POST",
@@ -30,6 +32,7 @@ const Contact = () => {
     })
       .then((res) => {
         setstate({ ...state, sent: true });
+        setSending(false);
         setData({
           name: "",
           lastName: "",
@@ -40,6 +43,7 @@ const Contact = () => {
       })
       .catch((err) => {
         console.log(err);
+        setSending(false);
         setstate({ error: false, sent: true });
       });
   };
@@ -203,12 +207,21 @@ const Contact = () => {
                     id="message"
                     onChange={handleChange}
                     className="border h-40 w-full outline-none p-3 my-4"
-                  >
-                    {message}
-                  </textarea>
-                  <button className="bg-blue-300 px-4 py-2 text-gray-100 hover:bg-blue-400 ">
-                    Send Message
-                  </button>
+                    value={message}
+                  />
+
+                  {sending ? (
+                    <button
+                      disabled={true}
+                      className="bg-blue-300 px-4 py-2 text-gray-100 cursor-default "
+                    >
+                      Sending...
+                    </button>
+                  ) : (
+                    <button className="bg-blue-300 px-4 py-2 text-gray-100 hover:bg-blue-400 ">
+                      Send
+                    </button>
+                  )}
                 </div>
               </form>
             </div>

@@ -69,17 +69,16 @@ export default function Header({ page }) {
                         height={20}
                         objectFit="contain"
                       />
-                      <span className="text-white">
-                        <Link href="tel:+93745287692">
-                          <a>+93745287692</a>
-                        </Link>
-                      </span>
+
+                      <Link href="tel:+93745287692">
+                        <a className="text-white">+93745287692</a>
+                      </Link>
                     </a>
                   </Link>
                 </div>
                 <div className="flex space-x-4">
                   {SocialMedia.slice(0, 2).map((social) => (
-                    <Link key={social.name} href={social.link}>
+                    <Link key={social.name} href={social.link} target="_blank">
                       <a className="hover:opacity-80">
                         <Image src={social.icon} width="25" height="25" />
                       </a>
