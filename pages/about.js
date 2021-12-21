@@ -5,7 +5,7 @@ export default function About() {
     <Layout page="/about">
       <main className="max-w-screen-xl mx-auto p-5 my-10 sm:my-16">
         <div className="flex flex-col sm:flex-row justify-between items-center max-w-5xl p-10 mx-auto shadow-md">
-          <div className="max-w-[400px]">
+          <div className="max-w-[400px]" data-aos="fade-up">
             <h2 className="text-gray-700 my-5 text-2xl font-bold">About Me</h2>
             <div className="text-gray-700">
               I am Ibrahim Nazari, my major is web development. Being a computer
@@ -18,7 +18,7 @@ export default function About() {
               to discusss and get to know you
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <Image
               src="/images/ibrahim-nazari-web-developer-from-afghanistan.jpg"
               width="300"

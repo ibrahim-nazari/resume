@@ -13,7 +13,7 @@ const Introduction = () => {
         objectFit="cover"
       />
       <div class=" w-full absolute top-1/2 z-30  text-center">
-        <h2 className="text-6xl text-center  title-shadow font-bold text-gray-100 ">
+        <h2 className="text-3xl sm:text-6xl text-center  title-shadow font-bold text-gray-100 ">
           I am a web developer
         </h2>
 
@@ -31,7 +31,7 @@ const Introduction = () => {
           loop
         >
           <input
-            className="text-4xl p-8 border-0 outline-none bg-transparent text-white placeholder-white"
+            className="sm:text-3xl font-semibold text-2xl p-4 sm:p-8 border-0 outline-none bg-transparent text-white placeholder-white"
             type="text"
           />
         </Typed>

@@ -8,10 +8,12 @@ function classNames(...classes) {
 const Footer = () => {
   return (
     <div className=" bg-gray-600 p-10">
-      <div className="max-w-screen-lg mx-auto flex flex-col sm:flex-row justify-between ">
+      <div className="max-w-screen-lg space-y-4 mx-auto flex flex-col sm:flex-row justify-between ">
         <div className="max-w-lg">
-          <h6 className="font-bold text-2xl mb-4 text-white">Web Developer</h6>
-          <div className="text-white italic text-sm ">
+          <h6 className="font-bold text-2xl mb-4 text-white" data-aos="fade-up">
+            Web Developer
+          </h6>
+          <div className="text-white italic text-sm " data-aos="fade-up">
             I am Ibrahim Nazari, freelance web developer,student of life and new
             technology,usually lots of my time dedicate to learn new tech and
             working on projects. Love to discuss, help and sharing my idea with
@@ -20,7 +22,7 @@ const Footer = () => {
             learning. feel free to message me - if you think i can help you.
           </div>
         </div>
-        <div className="flex flex-col space-y-1">
+        <div className="flex flex-col space-y-1" data-aos="fade-up">
           <h6 className="font-bold text-2xl mb-2 text-white">Pages</h6>
           {Navigation.map((item) => (
             <Link key={item.name} href={item.href}>
@@ -38,7 +40,7 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-        <div className="">
+        <div className="" data-aos="fade-up">
           <h6 className="italic text-lg mb-8 text-gray-400">
             Connect with us through social media
           </h6>

@@ -45,12 +45,18 @@ const RequestQuote = () => {
   };
   return (
     <div className="max-w-screen-xl mx-auto p-5 my-10 sm:my-16">
-      <h2 className="text-gray-700 text-center font-bold title-shadow text-5xl my-10 sm:my-14">
+      <h2
+        data-aos="fade-up"
+        className="text-gray-700 text-center font-bold title-shadow text-3xl sm:text-5xl my-10 sm:my-14"
+      >
         REQUEST A QUOTE
       </h2>
-      <div className="shadow-md  flex flex-col md:flex-row  max-w-screen-lg mx-auto mt-10">
+      <div
+        className="shadow-md  flex flex-col md:flex-row  max-w-screen-lg mx-auto mt-10"
+        data-aos="fade-up"
+      >
         <div className="bg-gray-800 text-gray-100 p-8 flex-shrink min-w-[300px]">
-          <div className="flex space-x-8 items-center mb-8">
+          <div className="flex space-x-8 items-center mb-8" data-aos="fade-up">
             <Image
               src="/images/socialmedia/email.svg"
               width={25}
@@ -61,7 +67,7 @@ const RequestQuote = () => {
               <a>nazaricode@gmail.com</a>
             </Link>
           </div>
-          <div className="flex space-x-8 items-center my-8">
+          <div className="flex space-x-8 items-center my-8" data-aos="fade-up">
             <Image
               src="/images/socialmedia/phone.svg"
               width={20}
@@ -72,7 +78,7 @@ const RequestQuote = () => {
               <a>+93745287692</a>
             </Link>
           </div>
-          <div className="flex space-x-8 items-center my-8">
+          <div className="flex space-x-8 items-center my-8" data-aos="fade-up">
             <Image
               src="/images/socialmedia/whatsapp.svg"
               width={25}
@@ -83,7 +89,7 @@ const RequestQuote = () => {
               <a>+93745287692</a>
             </Link>
           </div>
-          <div className="flex space-x-8 items-center my-8">
+          <div className="flex space-x-8 items-center my-8" data-aos="fade-up">
             <Image
               src="/images/socialmedia/telegram.svg"
               width={25}
@@ -120,6 +126,7 @@ const RequestQuote = () => {
           <form
             className="grid grid-cols-1 lg:grid-cols-2 gap-9"
             onSubmit={submit}
+            data-aos="fade-up"
           >
             <div className="flex  items-center">
               <label className="w-24" htmlFor="name">

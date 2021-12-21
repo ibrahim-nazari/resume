@@ -46,8 +46,11 @@ const Contact = () => {
   return (
     <Layout page="/contact">
       <main>
-        <div className="max-w-screen-xl mx-auto p-5 ">
-          <h2 className="text-gray-700 text-center font-bold title-shadow text-5xl my-10 sm:my-14">
+        <div className="max-w-screen-xl mx-auto p-5 " data-aos="fade-up">
+          <h2
+            className="text-gray-700 text-center font-bold title-shadow text-2xl my-10 sm:my-14"
+            data-aos="fade-up"
+          >
             Contact Us
           </h2>
           <div className="shadow-md  flex flex-col md:flex-row  max-w-screen-lg mx-auto mt-10">
@@ -63,7 +66,10 @@ const Contact = () => {
                   <a>nazaricode@gmail.com</a>
                 </Link>
               </div>
-              <div className="flex space-x-8 items-center my-8">
+              <div
+                className="flex space-x-8 items-center my-8"
+                data-aos="fade-up"
+              >
                 <Image
                   src="/images/socialmedia/phone.svg"
                   width={20}
@@ -74,7 +80,10 @@ const Contact = () => {
                   <a>+93745287692</a>
                 </Link>
               </div>
-              <div className="flex space-x-8 items-center my-8">
+              <div
+                className="flex space-x-8 items-center my-8"
+                data-aos="fade-up"
+              >
                 <Image
                   src="/images/socialmedia/whatsapp.svg"
                   width={25}
@@ -85,7 +94,10 @@ const Contact = () => {
                   <a>+93745287692</a>
                 </Link>
               </div>
-              <div className="flex space-x-8 items-center my-8">
+              <div
+                className="flex space-x-8 items-center my-8"
+                data-aos="fade-up"
+              >
                 <Image
                   src="/images/socialmedia/telegram.svg"
                   width={25}
@@ -124,6 +136,7 @@ const Contact = () => {
               <form
                 className="grid grid-cols-1 lg:grid-cols-2 gap-9"
                 onSubmit={submit}
+                data-aos="fade-up"
               >
                 <div className="flex  items-center">
                   <label className="w-24" htmlFor="name">
