@@ -31,6 +31,11 @@ const Contact = () => {
       },
     })
       .then((res) => {
+        if (res.status != 200) {
+          setSending(false);
+          setstate({ error: true, sent: true });
+          return false;
+        }
         setstate({ ...state, sent: true });
         setSending(false);
         setData({
@@ -131,7 +136,7 @@ const Contact = () => {
                   </strong>
                   <span className="block sm:inline">
                     {error
-                      ? "Something is wrong, try again."
+                      ? "Something went wrong, try again."
                       : "Message successfully sent!"}
                   </span>
                 </div>
