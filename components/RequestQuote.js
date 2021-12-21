@@ -44,7 +44,7 @@ const RequestQuote = () => {
       .catch((err) => {
         console.log(err);
         setSending(false);
-        setstate({ error: false, sent: true });
+        setstate({ error: true, sent: true });
       });
   };
   return (
