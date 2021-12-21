@@ -53,7 +53,7 @@ const RequestQuote = () => {
       });
   };
   return (
-    <div className="max-w-screen-xl mx-auto p-5 my-10 sm:my-16">
+    <div className="max-w-screen-xl mx-auto sm:p-5 my-10 sm:my-16">
       <h2
         data-aos="fade-up"
         className="text-gray-700 text-center font-bold title-shadow text-3xl sm:text-5xl my-10 sm:my-14"
@@ -61,7 +61,7 @@ const RequestQuote = () => {
         REQUEST A QUOTE
       </h2>
       <div
-        className="shadow-md  flex flex-col md:flex-row  max-w-screen-lg mx-auto mt-10"
+        className="shadow-md  flex flex-col md:flex-row  max-w-screen-lg mx-auto mt-20"
         data-aos="fade-up"
       >
         <div className="bg-gray-800 text-gray-100 p-8 flex-shrink min-w-[300px]">

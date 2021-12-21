@@ -3,7 +3,7 @@ import Image from "next/image";
 const Language = ({ item }) => {
   return (
     <div
-      className="flex flex-col sm:flex-row space-y-4 space-x-10 items-center sm:items-start shadow-md border border-gray-100 p-5 "
+      className="flex flex-col sm:flex-row space-y-4 space-x-5 items-center sm:items-start shadow-md border border-gray-100 p-5 "
       data-aos="fade-up"
     >
       <div style={{ minWidth: "80px" }} data-aos="fade-up">
@@ -13,7 +13,7 @@ const Language = ({ item }) => {
 
       <div className="flex flex-col space-y-4" data-aos="fade-up">
         <div className="flex space-x-4 items-center ">
-          <p className="font-bold text-sm sm:text-lg text-gray-700">
+          <p className="font-bold text-sm sm:text-md text-gray-700">
             {item.name}
           </p>
           <Link target="_blank" href={item.link}>

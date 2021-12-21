@@ -2,17 +2,17 @@ import { Technology } from "../constant/Technology";
 import Language from "./Language";
 const Experience = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-5 my-10 sm:my-16">
+    <div className="max-w-screen-xl mx-auto sm:p-5 my-10 sm:my-16">
       <h2
         data-aos="fade-up"
         className="text-gray-700 text-center font-bold title-shadow text-2xl sm:text-5xl my-10"
       >
         Technology i love to work
       </h2>
-      <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 ">
+      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 mt-20 ">
         <div className="flex flex-col">
           <h4
-            className="text-gray-800 font-bold my-5  text-2xl sm:text-3xl "
+            className="text-gray-800 font-bold my-5 text-center sm:text-left pl-4 text-2xl sm:text-3xl "
             data-aos="fade-up"
           >
             Front-End
@@ -23,7 +23,7 @@ const Experience = () => {
         </div>
         <div className="flex flex-col">
           <h4
-            className="text-gray-800 font-bold my-5 text-2xl sm:text-3xl "
+            className="text-gray-800 font-bold my-5 text-2xl sm:text-3xl text-center sm:text-left pl-4 "
             data-aos="fade-up"
           >
             Back-End
@@ -36,5 +36,4 @@ const Experience = () => {
     </div>
   );
 };
-
 export default Experience;

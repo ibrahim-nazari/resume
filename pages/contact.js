@@ -55,9 +55,9 @@ const Contact = () => {
   return (
     <Layout page="/contact">
       <main>
-        <div className="max-w-screen-xl mx-auto p-5 " data-aos="fade-up">
+        <div className="max-w-screen-xl mx-auto sm:p-5 " data-aos="fade-up">
           <h2
-            className="text-gray-700 text-center font-bold title-shadow text-2xl my-10 sm:my-14"
+            className="text-gray-700 text-center font-bold title-shadow text-4xl my-10 sm:my-14"
             data-aos="fade-up"
           >
             Contact Us
