@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className=" bg-gray-600 p-10">
       <div className="max-w-screen-lg space-y-4 space-x-6 mx-auto flex flex-col sm:flex-row justify-between ">
-        <div className="max-w-lg w-1/2">
+        <div className="max-w-lg sm:w-1/2">
           <h6 className="font-bold text-2xl mb-4 text-white" data-aos="fade-up">
             Web Developer
           </h6>
