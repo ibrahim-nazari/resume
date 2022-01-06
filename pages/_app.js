@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
           create Clean, Professional, Seo, and User Friendly Responsive
           Websites "
         />
-        <meta property="og:site_name" content="Ibrahim Nazari Resume, Inc." />
+        <meta property="og:site_name" content="Ibrahim Nazari Resume" />
         <meta
           name="twitter:image:alt"
           content="freelance web developer resume"
