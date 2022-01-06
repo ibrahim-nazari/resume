@@ -70,6 +70,13 @@ export const Technology = {
         "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.",
     },
     {
+      image: "/images/codeigniter.png",
+      name: "Codeigniter",
+      link: "https://codeigniter.com/",
+      shortD:
+        "CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.",
+    },
+    {
       image: "/images/php.png",
       name: "Php",
       link: "https://www.php.net/",
