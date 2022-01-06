@@ -8,14 +8,11 @@ export default function About() {
           <div className="max-w-[400px]" data-aos="fade-up">
             <h2 className="text-gray-700 my-5 text-2xl font-bold">About Me</h2>
             <div className="text-gray-700">
-              I am Ibrahim Nazari, my major is web development. Being a computer
-              programmer help me to be like student forever, learning everyday
-              help me to work on recent technology which i loved in life. I work
-              as a freelance web developer, when i get time usually i watch
-              tutorial, most recent tech amaze me. I like to help, and share my
-              knowledge for people, helping,being profesional,build something
-              all this three is my goal. Send me message on social media, love
-              to discusss and get to know you
+              I am Ibrahim Nazari, I am a freelance web developer, I have over
+              6+ years of Website and Web Application Development. My goal is to
+              create Clean, Professional, Seo, and User Friendly Responsive
+              Websites and Web Applications for clients.Please feel free to
+              contact me with any questions or to get started on your project!
             </div>
           </div>
           <div data-aos="fade-up">

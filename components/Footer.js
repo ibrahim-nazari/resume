@@ -11,15 +11,14 @@ const Footer = () => {
       <div className="max-w-screen-lg space-y-4 space-x-6 mx-auto flex flex-col sm:flex-row justify-between ">
         <div className="max-w-lg sm:w-1/2">
           <h6 className="font-bold text-2xl mb-4 text-white" data-aos="fade-up">
-            Web Developer
+            Freelance Web Developer
           </h6>
           <div className="text-white italic text-sm " data-aos="fade-up">
-            I am Ibrahim Nazari, freelance web developer,student of life and new
-            technology,usually lots of my time dedicate to learn new tech and
-            working on projects. Love to discuss, help and sharing my idea with
-            others, on spare time i go visiting friends, watch tutorial,
-            chatting, prefer to work on new techs and beside i am always
-            learning. feel free to message me - if you think i can help you.
+            I am Ibrahim Nazari, I am a freelance web developer, I have over 6+
+            years of Website and Web Application Development. My goal is to
+            create Clean, Professional, Seo, and User Friendly Responsive
+            Websites and Web Applications for clients.Please feel free to
+            contact me with any questions or to get started on your project!
           </div>
         </div>
         <div className="flex flex-col space-y-1" data-aos="fade-up">

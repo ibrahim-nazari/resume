@@ -23,9 +23,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:description"
-          content="I am Ibrahim Nazari, my major is web development. Being a computer
-          programmer help me to be like student forever, learning everyday
-          help me to work on recent technology which i loved in life."
+          content="I am Ibrahim Nazari, I am a freelance web developer, I have over
+          6+ years of Website and Web Application Development. My goal is to
+          create Clean, Professional, Seo, and User Friendly Responsive
+          Websites "
         />
         <meta property="og:site_name" content="Ibrahim Nazari Resume, Inc." />
         <meta
